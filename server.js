@@ -11,6 +11,7 @@ app.use(express.urlencoded({extended : false}));
 
 app.use(routeBook);
 
+//for listening to the port number
 app.listen(PORT, (err) => {
     if(err) {
         console.log('Error Occured');
